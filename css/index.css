@@ -134,15 +134,6 @@ html,
 body {
   height: 100%;
 }
-
-.container {
-  margin: 0 0 0 453px;
-  height: 1500px;
-  width:  900px;
-  border: 1px solid red;
-  .box();
-}
-
 header nav ul {
   width: 900px;
   height: 50px;
@@ -151,82 +142,74 @@ header nav ul {
   padding: 2rem;
   display: flex;
   justify-content: flex-end;
-  
 }
-
-li{
+.container {
+  margin: 0 0 0 453px;
+  height: 1500px;
+  width: 900px;
+  border: 1px solid red;
+}
+.container li {
   height: 20px;
   border: 1px solid red;
   margin: -2px 0 -5px 29px;
 }
-
-a {
+.container a {
   text-decoration: none;
   color: black;
   font: verdana;
-  font-size:large;
+  font-size: large;
 }
-
-.wrapper {
+.container .wrapper {
   border: 1px solid blue;
   margin: 3px 0 0 15px;
-  height:710px;
+  height: 710px;
   width: 870px;
   background-color: lightgrey;
 }
-
-.box { 
+.container .box {
   border: 1px solid red;
   height: 300px;
-  width:300px;
+  width: 300px;
   margin: 65px 0 0 30px;
 }
-
-.name {
+.container .name {
   border: 1px solid red;
-  padding: .4rem 2rem .2rem 2rem;
+  padding: 0.4rem 2rem 0.2rem 2rem;
   font-size: 55px;
 }
-
-.slogan {
+.container .slogan {
   border: 1px solid red;
   font-size: large;
-  margin: 13px 0 0 30px
+  margin: 13px 0 0 30px;
 }
-
-.wrapper2{
+.container .wrapper2 {
   border-top: 1px solid gray;
   margin: 12px 3px 0 35px;
   width: 93%;
 }
-
-.interest {
+.container .interest {
   border: 1px solid red;
   padding: 1.8rem;
   font-size: 120%;
 }
-
-button{
+.container button {
   width: 157px;
   height: 50px;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: -10px 0 0 30px;
   color: white;
   background: gray;
   font-size: 127%;
   border-radius: 10px;
-
 }
-
-.intro{
-  flex:display;
+.container .intro {
+  flex: display;
 }
-
-.good-at{
-  flex:display;
+.container .good-at {
+  flex: display;
 }
-
-.bio {
-  flex:display;
-  flex-wrap:wrap;
+.container .bio {
+  flex: display;
+  flex-wrap: wrap;
 }
