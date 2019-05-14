@@ -143,22 +143,22 @@ header nav ul {
   display: flex;
   justify-content: flex-end;
 }
+li {
+  height: 20px;
+  border: 1px solid red;
+  margin: -2px 0 -5px 29px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font: verdana;
+  font-size: large;
+}
 .container {
   margin: 0 0 0 453px;
   height: 1500px;
   width: 900px;
   border: 1px solid red;
-}
-.container li {
-  height: 20px;
-  border: 1px solid red;
-  margin: -2px 0 -5px 29px;
-}
-.container a {
-  text-decoration: none;
-  color: black;
-  font: verdana;
-  font-size: large;
 }
 .container .wrapper {
   border: 1px solid blue;
@@ -204,12 +204,20 @@ header nav ul {
   border-radius: 10px;
 }
 .container .intro {
-  flex: display;
+  border: 1px solid red;
+  height: 150px;
+  width: 400px;
 }
 .container .good-at {
-  flex: display;
+  border: 1px solid red;
+  height: 150px;
+  width: 400px;
 }
 .container .bio {
+  border: 1px solid red;
+  height: 550px;
+  width: 900px;
   flex: display;
   flex-wrap: wrap;
+  justify-content: center;
 }
