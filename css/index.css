@@ -223,6 +223,11 @@ a {
   width: 900px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  margin: 2.75rem 0 0 0;
+}
+.container .bio h1 {
+  font-size: 2rem;
 }
 .container .bio .good-at {
   border: 1px solid red;
@@ -231,8 +236,10 @@ a {
 }
 .container .bio .intro {
   border: 1px solid red;
-  height: 150px;
+  height: 250px;
   width: 400px;
+  font-size: large;
+  font-style: inherit;
 }
 .container .table {
   width: 100%;
@@ -240,4 +247,9 @@ a {
 }
 .container .table td {
   border: 1px solid black;
+  padding: 1rem;
+  font-size: large;
+}
+.container .table h1 {
+  font-size: 3rem;
 }
