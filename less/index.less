@@ -57,11 +57,15 @@ html, body {
     height: 100%;
 }
 
-header nav ul {
-	width: 900px;
-	height: 50px;
+.red-border {
 	border: 1px solid red;
-	margin: 0 0 9px 470px;
+}
+
+header nav ul {
+	width: 56.25rem;
+	height: 3.125rem;
+	.red-border();
+	margin: 0 0 .5625rem 29.375rem;
 	padding: 2rem;
 	display: flex;
 	justify-content: flex-end;
@@ -70,8 +74,8 @@ header nav ul {
   
   li{
 	height: 20px;
-	border: 1px solid red;
-	margin: -2px 0 -5px 29px;
+	.red-border();
+	margin: -.125rem 0 -.3125rem 1.8125rem;
   }
   
   a {
@@ -82,36 +86,36 @@ header nav ul {
   }
   
   .container {
-	margin: 0 0 0 453px;
-	height: 1500px;
-	width:  900px;
-	border: 1px solid red;
+	margin: 0 0 0 28.3125rem;
+	height: 93.75rem;
+	width:  56.25rem;
+	.red-border();
   
   .wrapper {
-	border: 1px solid blue;
-	margin: 3px 0 0 15px;
-	height:710px;
-	width: 870px;
+	.red-border();
+	margin: .1875rem 0 0 .9375rem;
+	height:44.375rem;
+	width: 54.375rem;
 	background-color: lightgrey;
   }
   
   .box { 
-	border: 1px solid red;
-	height: 300px;
-	width:300px;
-	margin: 65px 0 0 30px;
+	.red-border();
+	height: 18.75rem;
+	width:18.75rem;
+	margin: 4.0625rem 0 0 1.875rem;
   }
   
   .name {
-	border: 1px solid red;
+	.red-border();
 	padding: .4rem 2rem .2rem 2rem;
-	font-size: 55px;
+	font-size: 3.4375rem;
   }
   
   .slogan {
-	border: 1px solid red;
+	.red-border();
 	font-size: large;
-	margin: 13px 0 0 30px
+	margin: .8125rem 0 0 1.875rem;
   }
   
   .wrapper2{
@@ -121,7 +125,7 @@ header nav ul {
   }
   
   .interest {
-	border: 1px solid red;
+	.red-border();
 	padding: 1.8rem;
 	font-size: 120%;
   }
@@ -135,30 +139,56 @@ header nav ul {
 	background: gray;
 	font-size: 127%;
 	border-radius: 10px;
-  
-  }
-  
-  .intro{
-	border: 1px solid red;
-	height:150px;
-	width: 400px;
-  }
-  
-  .good-at{
-	border: 1px solid red;
-	height: 150px;
-	width: 400px;
-  }
-  
-  .bio {
-	border: 1px solid red;
-	height: 550px;
-	width: 900px;
-	flex: display;
-	flex-wrap:wrap;
-	justify-content: center;
   }
 
+  button:hover{
+	width: 157px;
+	height: 50px;
+	padding: .5rem;
+	margin: -10px 0 0 30px;
+	color: white;
+	background: black;
+	font-size: 127%;
+	border-radius: 10px;
+	cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  .bio {
+	.red-border();
+	height: 325px;
+	width: 900px;
+	display: flex;
+	flex-direction: row;
+
+		.good-at{
+			.red-border();
+			height: 250px;
+			width: 400px;
+		}
+		
+		.intro{
+			.red-border();
+			height:150px;
+			width: 400px;
+			}
+
+	}
+	
+	.table {
+		width: 100%;
+		height: 100%;
+		td{
+
+		border: 1px solid black;
+		
+		}
+	}
+
+	
 
 
   
