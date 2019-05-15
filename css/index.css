@@ -141,10 +141,17 @@ header nav ul {
   width: 56.25rem;
   height: 3.125rem;
   border: 1px solid red;
-  margin: 0 0 0.5625rem 29.375rem;
+  margin: 0 0 0.5625rem 0.3125rem;
   padding: 2rem;
   display: flex;
   justify-content: flex-end;
+}
+@media (max-width: 23.438rem) {
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 li {
   height: 20px;
@@ -158,10 +165,19 @@ a {
   font-size: large;
 }
 .container {
-  margin: 0 0 0 28.3125rem;
+  margin: 0 0 0 0.3125rem;
   height: 93.75rem;
   width: 56.25rem;
   border: 1px solid red;
+}
+@media (max-width: 23.438rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.438rem;
+    height: 41,688rem;
+  }
 }
 .container .wrapper {
   border: 1px solid red;
@@ -174,7 +190,7 @@ a {
   border: 1px solid red;
   height: 18.75rem;
   width: 18.75rem;
-  margin: 4.0625rem 0 0 1.875rem;
+  margin: 4.0625rem 0 2rem 1.875rem;
 }
 .container .name {
   border: 1px solid red;
@@ -188,7 +204,7 @@ a {
 }
 .container .wrapper2 {
   border-top: 1px solid gray;
-  margin: 12px 3px 0 35px;
+  margin: 0.75rem 0.188rem 0 2.188rem;
   width: 93%;
 }
 .container .interest {
@@ -197,30 +213,30 @@ a {
   font-size: 120%;
 }
 .container button {
-  width: 157px;
-  height: 50px;
+  width: 9.813rem;
+  height: 3.125rem;
   padding: 0.5rem;
-  margin: -10px 0 0 30px;
+  margin: -0.625rem 0 0 1.875rem;
   color: white;
   background: gray;
   font-size: 127%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 .container button:hover {
-  width: 157px;
-  height: 50px;
+  width: 9.813rem;
+  height: 3.125rem;
   padding: 0.5rem;
-  margin: -10px 0 0 30px;
+  margin: -0.625rem 0 0 1.875rem;
   color: white;
   background: black;
   font-size: 127%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   cursor: pointer;
 }
 .container .bio {
   border: 1px solid red;
-  height: 300px;
-  width: 900px;
+  height: 18.75rem;
+  width: 56.25rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -231,13 +247,13 @@ a {
 }
 .container .bio .good-at {
   border: 1px solid red;
-  height: 250px;
-  width: 400px;
+  height: 15.625rem;
+  width: 25rem;
 }
 .container .bio .intro {
   border: 1px solid red;
-  height: 250px;
-  width: 400px;
+  height: 15.625rem;
+  width: 25rem;
   font-size: large;
   font-style: inherit;
 }
