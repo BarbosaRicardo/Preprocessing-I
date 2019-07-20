@@ -1,1 +1,291 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.red-border {
+  border: 1px solid red;
+}
+header nav ul {
+  width: 56.25rem;
+  height: 3.125rem;
+  border: 1px solid red;
+  margin: 0 0 0.5625rem 0.3125rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 23.438rem) {
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+li {
+  height: 20px;
+  border: 1px solid red;
+  margin: -0.125rem 0 -0.3125rem 1.8125rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font: verdana;
+  font-size: large;
+}
+.container {
+  margin: 0 0 0 0.3125rem;
+  height: 93.75rem;
+  width: 56.25rem;
+  border: 1px solid red;
+}
+@media (max-width: 23.438rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.438rem;
+    height: 41,688rem;
+  }
+}
+.container .wrapper {
+  border: 1px solid red;
+  margin: 0.1875rem 0 0 0.9375rem;
+  height: 44.375rem;
+  width: 54.375rem;
+  background-color: lightgrey;
+}
+.container .box {
+  border: 1px solid red;
+  height: 18.75rem;
+  width: 18.75rem;
+  margin: 4.0625rem 0 2rem 1.875rem;
+}
+.container .name {
+  border: 1px solid red;
+  padding: 0.4rem 2rem 0.2rem 2rem;
+  font-size: 3.4375rem;
+}
+.container .slogan {
+  border: 1px solid red;
+  font-size: large;
+  margin: 0.8125rem 0 0 1.875rem;
+}
+.container .wrapper2 {
+  border-top: 1px solid gray;
+  margin: 0.75rem 0.188rem 0 2.188rem;
+  width: 93%;
+}
+.container .interest {
+  border: 1px solid red;
+  padding: 1.8rem;
+  font-size: 120%;
+}
+.container button {
+  width: 9.813rem;
+  height: 3.125rem;
+  padding: 0.5rem;
+  margin: -0.625rem 0 0 1.875rem;
+  color: white;
+  background: gray;
+  font-size: 127%;
+  border-radius: 0.625rem;
+}
+.container button:hover {
+  width: 9.813rem;
+  height: 3.125rem;
+  padding: 0.5rem;
+  margin: -0.625rem 0 0 1.875rem;
+  color: white;
+  background: black;
+  font-size: 127%;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+.container .bio {
+  border: 1px solid red;
+  height: 18.75rem;
+  width: 56.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2.75rem 0 0 0;
+}
+.container .bio h1 {
+  font-size: 2rem;
+}
+.container .bio .good-at {
+  border: 1px solid red;
+  height: 15.625rem;
+  width: 25rem;
+}
+.container .bio .intro {
+  border: 1px solid red;
+  height: 15.625rem;
+  width: 25rem;
+  font-size: large;
+  font-style: inherit;
+}
+.container .table {
+  width: 100%;
+  height: 100%;
+}
+.container .table td {
+  border: 1px solid black;
+  padding: 1rem;
+  font-size: large;
+}
+.container .table h1 {
+  font-size: 3rem;
+}
+.container .work-history {
+  margin: 2rem 0 0 0;
+}
+.container .work-history h1 {
+  margin: 0 0 0 0.75rem;
+  font-size: 2rem;
+}
+.container .work-history h2 {
+  font-size: 1.3rem;
+}
+.container .copyright {
+  height: 5%;
+  width: 100%;
+  border: 1px solid red;
+  margin: 3rem 0 0 0rem;
+  text-align: center;
+  padding: 2rem 0 0 0;
+  color: white;
+  background: darkgray;
+}
